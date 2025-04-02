@@ -1,4 +1,3 @@
-valor = prompt("Olá, quantos reais você tem na aí?");
-dolar = 5.70
-cotacao = valor * dolar
-alert("R$" + valor + " reais equivalem a $" + cotacao + " dólares")
+valor = prompt("Olá, quantos dólares você tem na aí?");
+real = valor * 5.70;
+alert("Isso equivale a R$" + real + " reais")
