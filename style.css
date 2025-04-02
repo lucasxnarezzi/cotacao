@@ -4,10 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0 auto;
 }
 
 .container {
-    background-color: rgba(60, 60, 60, .2);
+    background-color: rgba(155, 155, 155, .2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,4 +27,8 @@ a {
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
+}
+
+.txt {
+    color: #444;
 }
